@@ -39,6 +39,10 @@ body {
     padding: 0.7em;
 }
 
+.user-nav a:hover {
+    color:yellow;
+}
+
 .dropdown {
     position: relative;
 }
@@ -69,3 +73,27 @@ body {
     
 }
 
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+    
+.site-search {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0.7em;
+    min-width: 30vw;
+}
+.site-search input {
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid transparent;
+}
+.site-search button {
+    padding: 0.5em;
+    border: 1px solid transparent;
+}
