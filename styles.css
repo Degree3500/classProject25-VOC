@@ -1,7 +1,9 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkgrey
+    background-color: darkgrey;
+    overflow-y: scroll;
+    
 }
 .main-header {
     background-color: #44463a;
@@ -104,4 +106,25 @@ body {
 .site-search button {
     padding: 0.5em;
     border: 1px solid transparent;
+}
+.slide img {
+   max-width: 100%; 
+   aspect-ratio: 16/6;
+   object-fit: cover;
+   object-position: center
+
+}
+.slide {
+    width: 100%;
+}
+/* content grid */
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.card-images {
+    max-width: 100%;
+}
+.col-4 {
+    grid-column: span 4;
 }

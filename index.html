@@ -12,6 +12,8 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <!-- body is for content -->
 
@@ -61,7 +63,32 @@
                     <span class="sr-only">Cart</span>
         </nav>
     </header>
-    <main></main>
+    <!-- slideshow -->
+     <div class="carousel" data-flickity='{ "cellAlign": "left", "contain": true, "wrapAround": true }'>
+        <div class="slide">
+            <img src="images/Slides/pexels-craytive-1478442.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/Slides/pexels-goumbik-292999.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/Slides/pexels-jddaniel-2385477.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/Slides/pexels-mnzoutfits-1598505.jpg" alt="shoes">
+        </div>
+        <div class="slide">
+            <img src="images/Slides/pexels-webdonut-19090.jpg" alt="shoes">
+        </div>
+     </div>
+    <main>
+        <div class="featured-grid">
+            <div class="card">
+                <img class="card-image" src="images/Cards/pexels-apostolosv-2946956.jpg" alt="casual shoes">
+                <div class="card-content"></div>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 
